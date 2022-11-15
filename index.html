@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search Website</title>
+    <!-- font awesome icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css "
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- logo -->
+      <div class="logo">
+        <div class="container">
+          <p>Movie <span>Corn.</span></p>
+        </div>
+      </div>
+      <!-- end of logo -->
+      <!-- search container -->
+      <div class="search-container">
+        <div class="search-element">
+          <h3>Search Movie:</h3>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search Movie Title ..."
+            onkeyup="findMovies()"
+            id="movie-search-box"
+          />
+
+          <div class="search-list" id="search-list">
+            <!-- list here -->
+            <!-- <div class="search-list-item">
+              <div class="search-item-thumbnail">
+                <img
+                  src="https://images.moviesanywhere.com/959ef1bcb5c9a8e31e384f8d20384efa/7b57798c-b6d2-4b46-8487-bc0ca59934ec.jpg"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="search-item-info">
+                <h3>Gaurdians of the Galaxy vol. 2</h3>
+                <p>2017</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <!-- end of search container -->
+      <!-- result container -->
+      <div class="container">
+        <div class="result-container">
+          <div class="result-grid">
+            <!-- <div class="movie-poster" id="result-grid">
+              <img
+                src="https://lumiere-a.akamaihd.net/v1/images/p_guardiansofthegalaxyvol2_19888_6cc63663.jpeg"
+                alt="movie-poster"
+                srcset=""
+              />
+            </div>
+            <div class="movie-info">
+              <h3 class="movie-title">Gaurdians of the Galaxy vol. 2</h3>
+              <ul class="movie-misc-info">
+                <li class="year">Year : 2017</li>
+                <li class="rated">Rating : PG-13</li>
+                <li class="released">Released: 05 May 2017</li>
+              </ul>
+              <p class="genre"><b>Genre:</b>Action, Adventure, comedy</p>
+              <p class="writer"><b>Writer:</b>James gunn , don Abnett</p>
+              <p class="actors">
+                <b>Actors :</b> Chris pratt, Zoe saldma, dava
+              </p>
+              <p class="plot">
+                <b>Plot :</b> The gurdians struggle ot keep together
+              </p>
+              <p class="language"><b>language : </b> English</p>
+              <p class="awards">
+                <b><i class="fas fa-award"></i></b>
+                Nominatedd for 1 Oscar
+              </p>
+                <button class="favorite" > Favorite</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- movei app js -->
+    <script src="script.js"></script>
+  </body>
+</html>
